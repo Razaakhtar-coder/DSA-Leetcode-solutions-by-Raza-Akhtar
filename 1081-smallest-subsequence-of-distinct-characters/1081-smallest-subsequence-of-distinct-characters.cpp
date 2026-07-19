@@ -4,10 +4,10 @@ public:
 
         // Store last occurrence of every character
         vector<int> lastIdx(26);
-        vector<bool> visited(26, false);
+        vector<bool> visited(26, false); // mark char visited after they are inserted in ans
 
         for (int i = 0; i < s.size(); i++) {
-            lastIdx[s[i] - 'a'] = i;
+            lastIdx[s[i] - 'a'] = i; // we get last index of every character ex-> lastIdx['a'] = 2,lastIdx['b'] = 6,lastIdx['c'] =7 lastIdx['d'] = 4
         }
 
         // Create stack
@@ -24,8 +24,8 @@ public:
 
             // Remove larger characters if they appear later
             while (!st.empty() &&
-                   st.top() > ch &&
-                   lastIdx[st.top() - 'a'] > i) {
+                   st.top() > ch && // d > c
+                   lastIdx[st.top() - 'a'] > i) { // if the char does appear after in string, remove it or add it lexicograph wise
 
                 visited[st.top() - 'a'] = false;
                 st.pop();
@@ -43,7 +43,7 @@ public:
             st.pop();
         }
 
-        reverse(ans.begin(), ans.end());
+        reverse(ans.begin(), ans.end()); // ans comes in descending order of lexicograph so reverse it
 
         return ans;
     }
