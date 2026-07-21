@@ -23,7 +23,7 @@ public:
         int maxPairSum = 0;
         // max(inactiveBlocks[i] + inactiveBlocks[i-1])
         for(int i=1; i<inactiveBlocks.size(); i++){
-            maxPairSum = max(maxPairSum, inactiveBlocks[i] + inactiveBlocks[i-1]); // taking out maximum sum of all 1s
+            maxPairSum = max(maxPairSum, inactiveBlocks[i] + inactiveBlocks[i-1]); // taking out maximum sum of all 0s
         }
 
         return maxPairSum + activeCount;
