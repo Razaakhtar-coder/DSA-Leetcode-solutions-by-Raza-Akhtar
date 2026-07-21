@@ -37,7 +37,7 @@ public:
 
         int left = grid[0][0];
         int right = n * n - 1; // n square 2 - 1
-        int ans = right;
+        int ans = 0;
 
         while (left <= right) {
             int mid = left + (right - left) / 2;
