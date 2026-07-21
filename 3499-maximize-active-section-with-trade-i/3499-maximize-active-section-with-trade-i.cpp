@@ -10,10 +10,10 @@ public:
         int i = 0;
         while(i < n){
             if(s[i] == '0'){
-                int start = i;
+                int start = i; // storing i in a variable 'start' so that we can store the count of 0 in it
                 while(i < n && s[i] == '0') i++;
 
-                inactiveBlocks.push_back(i - start);
+                inactiveBlocks.push_back(i - start); // size of the count ex-> start=0, i reached to 3-> gives us count
             }
             else{
                 i++;
@@ -23,7 +23,7 @@ public:
         int maxPairSum = 0;
         // max(inactiveBlocks[i] + inactiveBlocks[i-1])
         for(int i=1; i<inactiveBlocks.size(); i++){
-            maxPairSum = max(maxPairSum, inactiveBlocks[i] + inactiveBlocks[i-1]);
+            maxPairSum = max(maxPairSum, inactiveBlocks[i] + inactiveBlocks[i-1]); // taking out maximum sum of all 1s
         }
 
         return maxPairSum + activeCount;
