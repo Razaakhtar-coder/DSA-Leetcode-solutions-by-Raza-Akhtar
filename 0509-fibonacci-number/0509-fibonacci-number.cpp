@@ -1,6 +1,6 @@
 class Solution {
 public:
-      int fib(int n){
+      int fib(int n){ // t.c -> 0(n) s.c -> 0(1)
         if(n <= 1)
         return n;
 
@@ -15,7 +15,8 @@ public:
 
         return c;
       }
-};
+};  
+     //recursion + memoized solution below
 
     //  int solve(int n, vector<int>& dp){
     //     if( n <= 1)
