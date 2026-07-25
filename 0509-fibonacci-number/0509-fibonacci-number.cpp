@@ -1,23 +1,39 @@
 class Solution {
 public:
-     int solve(int n, vector<int>& dp){
-        if( n <= 1)
+      int fib(int n){
+        if(n <= 1)
         return n;
 
-        if(dp[n] != -1)
-        return dp[n];
+        int c;
+        int a = 0, b = 1;
 
-        return solve(n-1, dp) + solve(n-2, dp);
-     }
+        for(int i=1; i<n; i++){
+            c = a + b;
+            a = b;
+            b = c;
+        }
 
-    int fib(int n) {
-        if( n <= 1)
-        return n;
-
-        vector<int> dp(n+1, -1);
-        return solve(n, dp);
-    }
+        return c;
+      }
 };
+
+    //  int solve(int n, vector<int>& dp){
+    //     if( n <= 1)
+    //     return n;
+
+    //     if(dp[n] != -1)
+    //     return dp[n];
+
+    //     return solve(n-1, dp) + solve(n-2, dp);
+    //  }
+
+    // int fib(int n) {
+    //     if( n <= 1)
+    //     return n;
+
+    //     vector<int> dp(n+1, -1);
+    //     return solve(n, dp);
+
 
 // Synced seamlessly with LeetHub Pro
 // Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
