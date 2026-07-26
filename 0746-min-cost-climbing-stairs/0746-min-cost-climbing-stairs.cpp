@@ -6,9 +6,6 @@ public:
     if(n == 2)
     return min(cost[0], cost[1]);
 
-    if(n == 1)
-    return cost[0];
-
     for(int i=2; i<n; i++){
         cost[i] = cost[i] + min(cost[i-1], cost[i-2]);
     }
