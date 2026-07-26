@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0130-surrounded-regions) |
 | [0169-majority-element](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0189-rotate-array) |
+| [0219-contains-duplicate-ii](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0283-move-zeroes) |
 | [0332-reconstruct-itinerary](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0332-reconstruct-itinerary) |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0169-majority-element](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0169-majority-element) |
+| [0219-contains-duplicate-ii](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0347-top-k-frequent-elements) |
 | [1331-rank-transform-of-an-array](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/1331-rank-transform-of-an-array) |
@@ -341,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0219-contains-duplicate-ii](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0219-contains-duplicate-ii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Linked List
 |  |
