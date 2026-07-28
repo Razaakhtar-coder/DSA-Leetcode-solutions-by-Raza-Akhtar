@@ -1,8 +1,8 @@
 class Solution {
 public:
-    int change(int amount, vector<int>& coins) {
-        vector<unsigned long long> dp(amount + 1, 0);
-        dp[0] = 1;
+    int change(int amount, vector<int>& coins) { 
+        vector<unsigned long long> dp(amount + 1, 0); // as the constraints are 3000 of coin length and 5000 of coin[i] so we take unsigned long long
+        dp[0] = 1; // amount = 0, so we find 1 way 
 
         for (int coin : coins) {
             for (int j = coin; j <= amount; j++) {
