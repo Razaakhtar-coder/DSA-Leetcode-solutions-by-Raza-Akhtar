@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0090-subsets-ii](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0090-subsets-ii) |
 | [0130-surrounded-regions](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0130-surrounded-regions) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0169-majority-element](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0198-house-robber) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0004-median-of-two-sorted-arrays) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0268-missing-number](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0268-missing-number) |
 | [0778-swim-in-rising-water](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0778-swim-in-rising-water) |
 | [0981-time-based-key-value-store](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0981-time-based-key-value-store) |
