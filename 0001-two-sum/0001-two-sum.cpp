@@ -7,14 +7,14 @@ public:
         unordered_map<int, int> mp;
 
         for (int i = 0; i < nums.size(); i++) {
-            int first = nums[i];
-            int second = target - first;
+            int first = nums[i]; // the first number
+            int second = target - first; // sibtract target and first to get second
 
             if (mp.find(second) != mp.end()) {
-                return {mp[second], i};
+                return {mp[second], i}; // store in hashmap
             }
 
-            mp[first] = i;
+            mp[first] = i; // insert
         }
 
         return {};
