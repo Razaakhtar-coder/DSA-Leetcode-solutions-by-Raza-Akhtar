@@ -17,7 +17,7 @@ public:
             mp[first] = i; // insert
         }
 
-        return {};
+        return {}; // return
     }
 };
 
