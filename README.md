@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0628-maximum-product-of-three-numbers) |
 | [0695-max-area-of-island](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0695-max-area-of-island) |
+| [0704-binary-search](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0704-binary-search) |
 | [0746-min-cost-climbing-stairs](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0746-min-cost-climbing-stairs) |
 | [0778-swim-in-rising-water](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0778-swim-in-rising-water) |
 | [0875-koko-eating-bananas](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0875-koko-eating-bananas) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0268-missing-number) |
+| [0704-binary-search](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0704-binary-search) |
 | [0778-swim-in-rising-water](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0778-swim-in-rising-water) |
 | [0875-koko-eating-bananas](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0875-koko-eating-bananas) |
 | [0981-time-based-key-value-store](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0981-time-based-key-value-store) |
