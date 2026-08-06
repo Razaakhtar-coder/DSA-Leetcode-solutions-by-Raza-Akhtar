@@ -335,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0002-add-two-numbers) |
 | [0231-power-of-two](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0231-power-of-two) |
+| [0394-decode-string](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0394-decode-string) |
 | [0486-predict-the-winner](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0509-fibonacci-number) |
 ## Heap (Priority Queue)
@@ -401,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0091-decode-ways) |
 | [0332-reconstruct-itinerary](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0332-reconstruct-itinerary) |
+| [0394-decode-string](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0394-decode-string) |
 | [0680-valid-palindrome-ii](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0680-valid-palindrome-ii) |
 | [0981-time-based-key-value-store](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0981-time-based-key-value-store) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/1081-smallest-subsequence-of-distinct-characters) |
@@ -449,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0155-min-stack) |
+| [0394-decode-string](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0394-decode-string) |
 | [0739-daily-temperatures](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/0853-car-fleet) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/1081-smallest-subsequence-of-distinct-characters) |
