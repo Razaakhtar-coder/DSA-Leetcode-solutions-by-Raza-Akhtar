@@ -4,14 +4,14 @@ public:
     int dp[71][71][71];
 
     int solve(vector<vector<int>>& grid, int row, int col1, int col2){
-        if(row >= m)
+        if(row >= m) // if we go out of bound
         return 0;
 
         if(dp[row][col1][col2] != -1){
             return dp[row][col1][col2];
         }
 
-        int cherry = grid[row][col1];
+        int cherry = grid[row][col1]; // condition where both robots gets into a same grid.
         if(col1 != col2){
         cherry += grid[row][col2];
         }
@@ -20,11 +20,11 @@ public:
         for(int i=-1; i<=1; i++){
             for(int j=-1; j<=1; j++){
 
-                int newRow = row + 1;
-                int newCol1 = col1 + i;
-                int newCol2 = col2 + j;
+                int newRow = row + 1; // moving to new row
+                int newCol1 = col1 + i; // moving to new column with new added ith value
+                int newCol2 = col2 + j; // moving to new column with new added ith value
 
-                if(newCol1 >= 0 && newCol1 < n && newCol2 >= 0 && newCol2 < n)
+                if(newCol1 >= 0 && newCol1 < n && newCol2 >= 0 && newCol2 < n) // checking the out of bound service.
                  ans = max(ans, solve(grid, newRow, newCol1, newCol2));
             }
         }
