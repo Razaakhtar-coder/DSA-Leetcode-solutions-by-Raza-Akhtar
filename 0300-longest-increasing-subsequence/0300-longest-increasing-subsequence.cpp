@@ -3,13 +3,13 @@ public:
     int lengthOfLIS(vector<int>& nums) {
         vector<int> tails;
 
-        for (int x : nums) {
-            auto it = lower_bound(tails.begin(), tails.end(), x);
+        for (int num : nums) {
+            auto it = lower_bound(tails.begin(), tails.end(), num);
 
             if (it == tails.end()) {
-                tails.push_back(x);  // extend LIS
+                tails.push_back(num);  // extend LIS
             } else {
-                *it = x;  // replace to keep tails minimal
+                *it = num;  // replace to keep tails minimal
             }
         }
 
