@@ -38,6 +38,38 @@ public: //Time: O(n × m), Space: O(n × m) for memoization + O(n) recursion sta
         return solve(0, 0, s, t, dp);
     }
 };
+// BOTTOM UP
+// class Solution {
+// public:
+//     int numDistinct(string s, string t) {
+//         int n = s.size();
+//         int m = t.size();
+
+//         vector<vector<long long>> dp(n + 1, vector<long long>(m + 1, 0));
+
+//         // Empty t can be formed from any prefix of s in 1 way:
+//         // choose nothing.
+//         for (int i = 0; i <= n; i++) {
+//             dp[i][0] = 1;
+//         }
+
+//         for (int i = 1; i <= n; i++) {
+//             for (int j = 1; j <= m; j++) {
+
+//                 if (s[i - 1] == t[j - 1]) {
+//                     // Take s[i-1] OR skip s[i-1]
+//                     dp[i][j] = dp[i - 1][j - 1] + dp[i - 1][j];
+//                 }
+//                 else {
+//                     // Cannot take s[i-1], so skip it
+//                     dp[i][j] = dp[i - 1][j];
+//                 }
+//             }
+//         }
+
+//         return dp[n][m];
+//     }
+// };
 
 // Synced seamlessly with LeetHub Pro
 // Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
