@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> resultArray(vector<int>& nums) {
-        vector<int> arr1;
+        vector<int> arr1; // time complexity -> 0(n)
         vector<int> arr2;
 
         arr1.push_back(nums[0]);
