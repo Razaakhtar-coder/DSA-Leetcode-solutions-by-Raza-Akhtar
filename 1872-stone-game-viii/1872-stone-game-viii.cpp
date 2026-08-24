@@ -1,6 +1,6 @@
 // class Solution {
 // public:
-//      int n;
+//      int n; // in this code our only 1 testcase do not pass and gives TLE.
 //      int dp[100001];
 
 //      int solve(int i, vector<int>& prefixSum){
@@ -45,17 +45,17 @@ public:
             prefixSum[i] = prefixSum[i - 1] + stones[i];
         }
 
-        vector<int> t(n);
-        t[n - 1] = prefixSum[n - 1];                       // base case: solve(n-1)
+        vector<int> dp(n);
+        dp[n - 1] = prefixSum[n - 1];                       // base case: solve(n-1)
         
-        for (int i = n - 2; i >= 1; i--) {
-            int take = prefixSum[i] - t[i + 1];
-            int skip = t[i+1];
+        for (int i = n - 2; i >= 1; i--) { // looping backword
+            int take = prefixSum[i] - dp[i + 1];
+            int skip = dp[i+1];
 
-            t[i] = max(take, skip);
+            dp[i] = max(take, skip);
         }
 
-        return t[1]; // == solve(1)
+        return dp[1]; // == solve(1)
     }
 };
 
