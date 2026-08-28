@@ -6,7 +6,7 @@ public:
     string result = "";
 
     bool solve(string& curr, vector<int>& count, string& target, int i, bool greater) {
-        if(i == target.length()) {
+        if(i == target.length()) { // base case if i reaches out of bound
             if(greater) {
                 result = curr;
                 return true;
@@ -15,15 +15,15 @@ public:
         }
 
         for(char ch = 'a'; ch <= 'z'; ch++) {
-            if(count[ch-'a'] == 0)
+            if(count[ch-'a'] == 0) // fill index
                 continue;
             
-            if(greater == false && ch < target[i])
+            if(greater == false && ch < target[i]) // greater is still false continue
                 continue;
             
 
             curr.push_back(ch);
-            count[ch-'a']--;
+            count[ch-'a']--; // backtrack from the character
 
             bool isGreater = greater || ch > target[i];
 
@@ -32,7 +32,7 @@ public:
             }
 
             curr.pop_back();
-            count[ch-'a']++;
+            count[ch-'a']++; // add character when greater becomes true
         }
 
         return false;
