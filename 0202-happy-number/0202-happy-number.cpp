@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int getNext(int n){
+    int getNext(int n){ // t.c - 0(log n), s.c - 0(1)
         int sum = 0;
         while(n > 0){
             int digit = n % 10; //This gets the last digit of the number. ex- 19 % 10 = 9
