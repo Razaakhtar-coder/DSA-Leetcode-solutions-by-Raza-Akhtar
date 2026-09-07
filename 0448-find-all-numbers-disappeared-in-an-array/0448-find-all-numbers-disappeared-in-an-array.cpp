@@ -13,7 +13,7 @@ public:
         vector<int> ans;
 
         for (int i = 0; i < n; i++) {
-            if (nums[i] > 0) { // check if we have already taken the number
+            if (nums[i] > 0) { // found the missing number because nobody filled that place
                 ans.push_back(i + 1); // push ans
             }
         }
