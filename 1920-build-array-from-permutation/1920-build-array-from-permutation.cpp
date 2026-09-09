@@ -2,10 +2,10 @@ class Solution {
 public:
     vector<int> buildArray(vector<int>& nums) {
         int n = nums.size();
-        vector<int> ans(n);
+        vector<int> ans(n); // create ans vector with size n, otherwise we will get a runtime error
 
         for(int i=0; i<n; i++){
-           ans[i] = nums[nums[i]];
+           ans[i] = nums[nums[i]]; // formula to calculate zero-based permutation, given in question itself
         }
         return ans;
 
