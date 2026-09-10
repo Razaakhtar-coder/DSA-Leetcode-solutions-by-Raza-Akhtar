@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int next(vector<int>& nums, int i) {
+    int next(vector<int>& nums, int i) { // t.c - 0(n), s.c - 0(1)
         int n = nums.size();
         return (i + (long long)nums[i] % n + n) % n; // moving from index to index by taking n steps, use long long for integer overflow problem
     }
