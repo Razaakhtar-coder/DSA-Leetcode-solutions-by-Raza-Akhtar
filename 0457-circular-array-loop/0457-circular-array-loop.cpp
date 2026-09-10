@@ -2,7 +2,7 @@ class Solution {
 public:
     int next(vector<int>& nums, int i) {
         int n = nums.size();
-        return (i + (long long)nums[i] % n + n) % n; // moving from index to index by taking n steps
+        return (i + (long long)nums[i] % n + n) % n; // moving from index to index by taking n steps, use long long for integer overflow problem
     }
 
     bool circularArrayLoop(vector<int>& nums) {
