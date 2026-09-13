@@ -2,14 +2,14 @@ class Solution {
 public:
     bool isFreqSame(int freq1[], int freq2[]) {
         for(int i = 0; i < 26; i++) {
-            if(freq1[i] != freq2[i])
+            if(freq1[i] != freq2[i]) // if the freq 1 not equal to freq 2, false
                 return false;
         }
         return true;
     } 
 
     bool checkInclusion(string s1, string s2) {
-        if(s1.length() > s2.length())
+        if(s1.length() > s2.length()) // if the length of the s is greater , false
             return false;
 
         int freq1[26] = {0};
