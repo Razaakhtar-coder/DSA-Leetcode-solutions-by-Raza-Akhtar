@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool isSubsequence(string s, string t) { // t.c - 0(n)(t.size), s.c - 0(1)
+    bool isSubsequence(string s, string t) { // t.c - 0(n)(t.size), s.c - 0(1)(constant)
         int i = 0;
         int j = 0;
 
