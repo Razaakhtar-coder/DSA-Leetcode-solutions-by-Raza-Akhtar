@@ -5,8 +5,8 @@ public:
         int j = 0;
 
         while (i < s.size() && j < t.size()) {
-            if (s[i] == t[j]) { // we found the next required character
-                i++; // Regardless of whether they match, we move through t
+            if (s[i] == t[j]) { // we found the next required character.
+                i++; // Regardless of whether they match, we move through t.
             }
             j++;
         }
