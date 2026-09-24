@@ -8,7 +8,7 @@ public:
         
         for(int i=0;i<n; i++){
             if(s[i] == 'R'){ // substr should start with R, given i question
-            count++; // increase count
+            count++; // increase count.
 
             } else{
                 count--; // or decrease count if letters are not equal in quantity
