@@ -18,7 +18,7 @@ public:
         }
 
         sum += root->val; // add the sum if root is not NULL
-        temp.push_back(root->val); // puh it in temp
+        temp.push_back(root->val); // put it in temp
 
         if(root->left == NULL && root->right == NULL){ // if we have reached to the leaf node from left, right
             if(sum == targetSum){ // and found the target
