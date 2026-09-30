@@ -1,7 +1,7 @@
 class Solution {
 public:
     int numJewelsInStones(string jewels, string stones) {
-        int count = 0; // t.c - 0(n*n), s.c- 0(1)
+        int count = 0; // t.c - 0(n*n), s.c- 0(1).
 
         for(int i=0; i<jewels.size(); i++){
             for(int j=0; j<stones.size(); j++){
