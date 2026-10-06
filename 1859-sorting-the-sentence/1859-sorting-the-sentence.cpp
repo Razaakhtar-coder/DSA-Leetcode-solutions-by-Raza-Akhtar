@@ -1,6 +1,6 @@
 class Solution {
 public:
-    string sortSentence(string s) { // TC: O(n), SC: O(n)
+    string sortSentence(string s) { // TC: O(n), SC: O(n).
         vector<string> words(10);
 
         int i = 0;
