@@ -4,7 +4,7 @@ public:
         int n = arr.size();
         int zeros = 0;
 
-        // Find how many zeros can actually be duplicated
+        // Find how many zeros can actually be duplicated.
         for (int i = 0; i < n; i++) {
             if (arr[i] == 0)
                 zeros++;
