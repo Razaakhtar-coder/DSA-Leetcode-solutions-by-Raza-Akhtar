@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool checkIfPangram(string sentence) { // Tc: O(n), s.c - 0(1)
+    bool checkIfPangram(string sentence) { // Tc: O(n), s.c - 0(1).
         int n = sentence.size();
         bool seen[26] = {false};
 
