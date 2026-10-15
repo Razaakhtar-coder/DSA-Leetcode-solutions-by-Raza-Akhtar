@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int largestAltitude(vector<int>& gain) { // t.c- 0(n), s.c- 0(1)
+    int largestAltitude(vector<int>& gain) { // t.c- 0(n), s.c- 0(1).
         int altitude = 0; // start with 0
         int highest = 0; // the highest altitude seen so far.
 
