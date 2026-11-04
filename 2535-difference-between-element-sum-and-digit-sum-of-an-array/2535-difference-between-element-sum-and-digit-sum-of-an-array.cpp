@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int differenceOfSum(vector<int>& nums) { // t.c - 0(n log m), s.c - 0(1)
+    int differenceOfSum(vector<int>& nums) { // t.c - 0(n log m), s.c - 0(1).
         int n = nums.size();
 
         int elementSum = 0;
