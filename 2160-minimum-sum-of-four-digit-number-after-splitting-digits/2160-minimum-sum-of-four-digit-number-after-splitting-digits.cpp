@@ -1,7 +1,7 @@
 
 class Solution {
 public:
-    int minimumSum(int num) { // t.c - 0(1) and same s.c
+    int minimumSum(int num) { // t.c - 0(1) and same s.c.
         vector<int> digits;
 
         while (num > 0) {
