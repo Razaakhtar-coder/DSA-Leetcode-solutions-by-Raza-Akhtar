@@ -194,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1684-count-the-number-of-consistent-strings](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/1832-check-if-the-sentence-is-pangram) |
 | [2351-first-letter-to-appear-twice](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/2351-first-letter-to-appear-twice) |
+| [2716-minimize-string-length](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/2716-minimize-string-length) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -756,6 +757,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2213-longest-substring-of-one-repeating-character](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2351-first-letter-to-appear-twice](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/2351-first-letter-to-appear-twice) |
 | [2390-removing-stars-from-a-string](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/2390-removing-stars-from-a-string) |
+| [2716-minimize-string-length](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/2716-minimize-string-length) |
 | [2833-furthest-point-from-origin](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/2833-furthest-point-from-origin) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Razaakhtar-coder/DSA-Leetcode-solutions-by-Raza-Akhtar/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
