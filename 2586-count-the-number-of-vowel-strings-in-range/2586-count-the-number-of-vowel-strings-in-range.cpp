@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int vowelStrings(vector<string>& words, int left, int right) {
+    int vowelStrings(vector<string>& words, int left, int right) { // t.c - 0(n), s.c - 0(1)
         int vowelCount = 0;
         string vowels = "aeiou"; // vowels words
 
