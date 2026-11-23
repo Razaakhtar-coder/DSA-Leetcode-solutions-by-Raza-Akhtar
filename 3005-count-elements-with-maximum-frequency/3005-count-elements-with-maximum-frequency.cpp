@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int maxFrequencyElements(vector<int>& nums) { // t.c - 0(n), s.c - 0(n)-> unordered map
+    int maxFrequencyElements(vector<int>& nums) { // t.c - 0(n), s.c - 0(n)-> unordered map.
         int n = nums.size();
 
         unordered_map<int, int> mp;
