@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<string> findRelativeRanks(vector<int>& score) {
+    vector<string> findRelativeRanks(vector<int>& score) { // t.c - 0(nlogn)
         int n = score.size();
 
         vector<pair<int, int>> v;
